@@ -1,0 +1,6 @@
+From Baseline run , we can review that model is not yet learning the features, and not converging. This may be due to shallow design 
+We will have to rerun with higher learning rate and also add more hidden layer.
+Due to large variation in hyperparameters, Its going to take long time to tune this MLP with grid/ random search.
+Currently optimization is using gradient search. Instead we can try the constructive learning using methods such as border pairs method.
+
+CNN followed by MLP at the end for classification could be better fit in this case. We will have to try and play around few architectures.
