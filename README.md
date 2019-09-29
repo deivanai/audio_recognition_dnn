@@ -16,10 +16,6 @@ Baseline Model
 
 NN with one hidden layer and one output layer with 10 neurons since no of classes = 10. Number of neurons at hidden layer is selected mid way between number of inputs and number of output. Relu activation for hidden layer and Softmax for output layer. Optimizer can be popular ‘adam’ with default learning rate parameter. Standard batch size of 32 and 10 Epochs Training data to be shuffled at end of every epoch. categorical_crossentropy as loss function due to balanced classification problem. Kernels initialized with ‘he_normal’ for good initial start of weights. Dropout layer added to get effect of ensemble of multiple neural networks trained at same time.
 
-Results
-
-Work In Progress
-
 Future Considerations
 
 Compare with data augmentation ( add padded samples) Dimension reduction ( clip and make shorter time durations, resample data) Run for longer epoch in a GPU compare against CNN, and AutoEncoder and any pertained networks tuned towards audio recognition Explore border Pairs method where instead of Grid / Random search for MLP’s exploding hyperparameters, arrive at minimal MLP architecture directly.
